@@ -1,0 +1,67 @@
+a {
+  color: #959595;
+  text-decoration: none;
+}
+
+
+body {
+  background: #000;
+  background-attachment: fixed !important;
+  color: #757575;
+  font: 1.4rem/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 20px 0px;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+p {
+  margin: 0 0 20px;
+}
+
+
+.code {
+  color: #000;
+  opacity: 0;
+}
+
+
+.test1 {
+  color: #757575;
+}
+
+
+.test2 {
+  color: #595959;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+
+::selection {
+  background: #757575;
+}
+
+
+@media print, screen and (max-width: 980px) {
+  .wrapper {
+    max-width: 90%;
+  }
+}
+
+
+@media print, screen and (min-width: 981px) {
+  .wrapper {
+    max-width: 650px;
+  }
+}
